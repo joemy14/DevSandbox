@@ -5,9 +5,10 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
 
-    <application
+        <application
         android:allowBackup="true"
         android:label="DevSandbox"
+        android:icon="@drawable/ic_launcher_foreground"
         android:supportsRtl="true"
         android:theme="@android:style/Theme.Material.Light.NoActionBar"
         android:usesCleartextTraffic="true">
