@@ -1,0 +1,41 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="600"
+    android:viewportHeight="600">
+    
+    <!-- Background rounded square -->
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M132,0 L468,0 A132,132 0 0,1 600,132 L600,468 A132,132 0 0,1 468,600 L132,600 A132,132 0 0,1 0,468 L0,132 A132,132 0 0,1 132,0 Z" />
+
+    <!-- Isometric Code Cube -->
+    <!-- Top Face (Amber) -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M300,140 L420,200 L300,260 L180,200 Z" />
+
+    <!-- Left Face (Electric Blue) -->
+    <path
+        android:fillColor="#3B82F6"
+        android:pathData="M180,200 L300,260 L300,380 L180,320 Z" />
+
+    <!-- Right Face (Deep Blue) -->
+    <path
+        android:fillColor="#2563EB"
+        android:pathData="M300,260 L420,200 L420,320 L300,380 Z" />
+
+    <!-- Terminal Prompt ">" -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="11"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M278,192 L260,201 L278,210" />
+
+    <!-- Terminal Cursor "_" -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M293,195 L309,195 A3,3 0 0,1 312,198 L312,204 A3,3 0 0,1 309,207 L293,207 A3,3 0 0,1 290,204 L290,198 A3,3 0 0,1 293,195 Z" />
+</vector>
